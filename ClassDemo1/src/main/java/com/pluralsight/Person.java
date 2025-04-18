@@ -13,6 +13,10 @@ public class Person {
 
     }
 
+    public void haveABirthday(){
+        this.age++;
+    }
+
     public  String getFullName(){
 
         return  this.fullName;
@@ -40,5 +44,19 @@ public class Person {
     }
 
 
+    @Override
+    public String toString() {
 
+        return String.format("Person %s is a %s and is %d years old \n",
+                this.getFullName(),
+                this.getProfession(),
+                this.getAge());
+
+
+//        return "Person{" +
+//                "fullName='" + fullName + '\'' +
+//                ", age=" + age +
+//                ", profession='" + profession + '\'' +
+//                '}';
+    }
 }

@@ -18,7 +18,7 @@ public class Main {
         age = scanner.nextInt();
         scanner.nextLine(); // clear the C-R-L-F
 
-        System.out.print("What us the person's profession: ");
+        System.out.print("What is the person's profession: ");
         profession = scanner.nextLine();
 
         Person thePerson = new Person(fullName, age, profession);
@@ -33,32 +33,23 @@ public class Main {
         age = scanner.nextInt();
         scanner.nextLine(); // clear the C-R-L-F
 
-        System.out.print("What us the person's profession: ");
+        System.out.print("What is the person's profession: ");
         profession = scanner.nextLine();
         Person theOtherPerson = new Person(fullName, age,profession);
 
 
 
-
-        System.out.println(thePerson.getFullName());
-        System.out.println(theOtherPerson.getFullName());
-
-
-          displayPerson(thePerson);
-          displayPerson(theOtherPerson);
-//        savePerson(fullName, age, profession);
-
-
+        thePerson.haveABirthday();
+        System.out.println(thePerson);
+        System.out.println(theOtherPerson);
+        System.out.printl
 
 
     }
 
     public static void displayPerson(Person person){
 
-        System.out.printf("Person %s is a %s and is %d years old \n",
-                person.getFullName(),
-                person.getProfession(),
-                person.getAge());
+        //System.out.println(person.toString());
 
     }
 
