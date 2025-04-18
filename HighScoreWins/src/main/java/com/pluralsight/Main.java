@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter a game score: ");
+        System.out.println("Using this format, Home:Visitor|21:9.\nPlease enter a game score: ");
         String teams;
         String scores;
         teams = scanner.nextLine().trim();
