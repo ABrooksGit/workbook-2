@@ -27,16 +27,17 @@ public class CellPhoneApplication {
         System.out.print("Who is the owner of the phone?: ");
         owner = scanner.nextLine();
 
-        CellPhone cellPhone = new CellPhone(serialNumber, model, carrier, phoneNumber,owner);
+        CellPhone phone = new CellPhone(serialNumber, model, carrier, phoneNumber,owner);
 //      CellPhone cellPhone2 = new CellPhone(serialNumber, model, carrier, phoneNumber,owner);
 
-        System.out.println(cellPhone.getSerialNumber());
-        System.out.println(cellPhone.getModel());
-        System.out.println(cellPhone.getCarrier());
-        System.out.println(cellPhone.getPhoneNumber());
-        System.out.println(cellPhone.getOwner());
+        System.out.println(phone.getSerialNumber());
+        System.out.println(phone.getModel());
+        System.out.println(phone.getCarrier());
+        System.out.println(phone.getPhoneNumber());
+        System.out.println(phone.getOwner());
 
-        cellPhone.dial("212-515-9999");
+        phone.dial("212-515-9999");
+        phone.dial("615-349-2840");
 
 
 

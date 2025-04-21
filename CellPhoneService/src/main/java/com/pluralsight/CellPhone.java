@@ -21,8 +21,8 @@ public class CellPhone {
   public void dial (String phoneNumber){
       System.out.printf("%s's Cellphone is dialing the number %s from the number %s\n ", this.owner, phoneNumber, this.getPhoneNumber());
   }
-    public void cellPhone (CellPhone phone){
-        System.out.printf("%s's Cellphone is dialing the number %s from the number %s\n ", this.owner, phoneNumber, this.getPhoneNumber());
+    public void dial(CellPhone phone){
+        System.out.printf("%s's Cellphone is dialing the number %s from the number %s\n ", this.owner, phone.phoneNumber, this.getPhoneNumber());
     }
 
   public  int getSerialNumber(){
