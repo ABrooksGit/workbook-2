@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Main {
+public class WhileLoop {
     public static void main(String[] args) {
 
         int java = 0;

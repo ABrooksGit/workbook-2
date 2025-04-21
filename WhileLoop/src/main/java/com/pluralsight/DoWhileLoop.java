@@ -6,9 +6,10 @@ public class DoWhileLoop {
 
         int java = 0;
 
-
         do{
             java ++;
+
+
             System.out.println("I love Java");
         } while(java < 5);
 

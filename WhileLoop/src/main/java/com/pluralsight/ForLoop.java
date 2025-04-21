@@ -2,8 +2,7 @@ package com.pluralsight;
 
 public class ForLoop {
     public static void main(String[] args) throws InterruptedException{
-
-//        int countdown = 0;
+        
 
         for(int countdown = 10; countdown >= 1; countdown--){
             Thread.sleep(1000);
