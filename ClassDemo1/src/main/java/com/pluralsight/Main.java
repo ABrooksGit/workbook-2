@@ -42,7 +42,7 @@ public class Main {
         thePerson.haveABirthday();
         System.out.println(thePerson);
         System.out.println(theOtherPerson);
-        System.out.printl
+
 
 
     }
